@@ -15,7 +15,7 @@ class Team
   
   # display scoreboard
   def show_team_result
-    puts "#{self.name}の2020年の成績は#{self.win}勝#{self.lose}敗#{@draw}分、勝率は#{self.calc_win_rate}です。"
+    puts "#{self.name} の2020年の成績は #{self.win}勝 #{self.lose}敗 #{@draw}分、勝率は #{self.calc_win_rate}です。"
   end
   
 end
